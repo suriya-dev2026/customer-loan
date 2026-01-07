@@ -29,6 +29,8 @@ public class User {
 
     private String status;
 
+    private String gender;
+
     @JsonIgnore
     @Column(name = "created_at")
     private LocalDate createdAt;
